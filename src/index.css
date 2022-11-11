@@ -1,0 +1,69 @@
+html {
+  background: url(./assets/bg_cover.png) no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+body {
+  background: inherit;
+  text-align: center;
+  color: #43658B;
+  font-size: large;
+  height: 100%;
+}
+.card{
+ opacity: 80%;
+}
+.App {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+.search-btn{
+  position:absolute;
+  top:0;
+  right:0.5rem;
+  max-width:220px;
+}
+.card .card-title {
+  font-size: 30px;
+  font-weight: 400;
+}
+.forcast{
+ margin:10px 0px 10px 0px;
+ font-size: 28px;
+}
+.temp{
+  margin:10px 0px 10px 0px;
+  font-size: 27px;
+}
+::-webkit-input-placeholder {
+  font-size: 16px;
+}
+.validate {
+  color:white; 
+ }
+.error-block{
+  color:#d32f2f;
+}
+.weather__icon{
+  width:100%;
+  max-width:250px;
+}
+
+@media (max-width: 500px) {
+  .header__line .brand-logo{
+    font-size: 16px;
+   }
+   .search-btn{
+    position:absolute;
+    top:3.5rem;
+    right:18%;
+    font-size:11px;
+  }
+}
